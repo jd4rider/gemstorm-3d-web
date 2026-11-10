@@ -3,7 +3,7 @@
   "name": "Gemstorm 3D: Crystal Cascade",
   "tagline": "Match crystals in a jewelled 3D gemfield.",
   "description": "A 3D match-three built in Unity and rendered straight from the WebGL player: real faceted gems, real light, and a board that reframes itself to any screen. Ten hand-tuned levels across five worlds ask for four different things - reach a score, collect a colour, collect a set number of gems, or melt every frosted cell on the board - so the same swap can be the right move or the wrong one depending on what the level wants. Matching four forges a line gem that clears its row, five forges a Spectrum that takes a whole colour off the board, and combining two specials compounds them. The rules run on a deterministic integer engine separate from the animation, so a cascade always resolves the same way twice. Sign in with a Little Joy Arcade account and campaign progress follows you between devices; play without one and everything still saves in the browser.",
-  "categories": ["Puzzle", "Match-3", "Casual", "Strategy"],
+  "categories": ["Puzzle", "Casual", "Strategy"],
   "runtime": "Unity WebGL",
   "version": "0.1.0",
   "updated": "2026-11-09",
@@ -21,15 +21,16 @@
     "Four goal types across ten levels - score, collect a colour, collect gems, melt frost",
     "Line gems, Spectrum gems and special-on-special combinations",
     "Board reframes itself to any screen, portrait or landscape",
+    "Swipe-to-swap, shattering crystals, screen shake, music and ambience",
     "Campaign progress syncs to your Little Joy Arcade account, and plays offline without one"
   ],
   "howToPlay": [
-    "Open the game and wait for the Unity progress bar - the first load streams about 58 MB",
-    "Tap a gem, then tap a neighbour to swap them. A swap that matches nothing is refused and costs no move",
+    "Open the game and wait for the Unity progress bar - the first load streams about 62 MB",
+    "Swipe a gem towards its neighbour to swap them - or tap one gem, then tap a neighbour. A swap that matches nothing is refused and costs no move",
     "Match three or more of a colour to clear them. Match four for a line gem, five for a Spectrum",
     "Watch the goal line under the level name: it says what this level actually wants",
     "Clear the goals before the moves counter in the top right runs out"
   ],
   "levels": "10 hand-tuned levels across 5 worlds (7x7 to 9x9 boards)",
-  "saveKey": "lja.save"
+  "saveKey": "lja:gemstorm-3d:unity-save"
 }
